@@ -6,6 +6,12 @@ $menuItems = [
 ];
 ?>
 <header>
+ <div class="header-container">
+        <div class="logo">
+            <a href="/index.php">
+                <img src="/assets/images/logo.jpg" alt="Логотип сайта" class="logo-img">
+            </a>
+        </div>
     <nav>
         <ul>
               <?php foreach ($menuItems as $title => $url): ?>
