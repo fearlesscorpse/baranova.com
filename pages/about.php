@@ -6,12 +6,9 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" href="/assets/images/logo.jpg" type="image/x-icon">
 </head>
-<body>
-    <?php include 'includes/header.php'; ?>
-    <main>
-        <h1>Добро пожаловать!</h1>
-    </main>
-    <?php include 'includes/footer.php'; ?>
-</body>
-</html>
+<?php include '../includes/header.php'; ?>
+<main>
+    <h1>О нас</h1>
+</main>
+<?php include '../includes/footer.php'; ?>
 
